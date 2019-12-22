@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18ACEAE323AF4F8500DFEB61 /* LeftAlignCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ACEAE223AF4F8500DFEB61 /* LeftAlignCollectionViewFlowLayout.m */; };
 		18E002A8238175C600CCB6CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E002A7238175C600CCB6CB /* AppDelegate.m */; };
 		18E002AB238175C600CCB6CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E002AA238175C600CCB6CB /* ViewController.m */; };
 		18E002AE238175C600CCB6CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E002AC238175C600CCB6CB /* Main.storyboard */; };
 		18E002B3238175C800CCB6CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E002B1238175C800CCB6CB /* LaunchScreen.storyboard */; };
 		18E002B6238175C800CCB6CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E002B5238175C800CCB6CB /* main.m */; };
 		18F194EF23AF40C70042185E /* TagCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F194EE23AF40C70042185E /* TagCollectionViewCell.m */; };
-		18F194F223AF41440042185E /* LeftAlignedCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F194F123AF41440042185E /* LeftAlignedCollectionViewFlowLayout.m */; };
 		18F194F623AF444E0042185E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F194F523AF444E0042185E /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18ACEAE123AF4F8500DFEB61 /* LeftAlignCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftAlignCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		18ACEAE223AF4F8500DFEB61 /* LeftAlignCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftAlignCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		18E002A3238175C600CCB6CB /* LeftAlignCollectionViewPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeftAlignCollectionViewPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E002A6238175C600CCB6CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18E002A7238175C600CCB6CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,8 +31,6 @@
 		18E002B5238175C800CCB6CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18F194ED23AF40C70042185E /* TagCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagCollectionViewCell.h; sourceTree = "<group>"; };
 		18F194EE23AF40C70042185E /* TagCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagCollectionViewCell.m; sourceTree = "<group>"; };
-		18F194F023AF41440042185E /* LeftAlignedCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftAlignedCollectionViewFlowLayout.h; sourceTree = "<group>"; };
-		18F194F123AF41440042185E /* LeftAlignedCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftAlignedCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		18F194F523AF444E0042185E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,8 +71,8 @@
 				18E002AC238175C600CCB6CB /* Main.storyboard */,
 				18F194ED23AF40C70042185E /* TagCollectionViewCell.h */,
 				18F194EE23AF40C70042185E /* TagCollectionViewCell.m */,
-				18F194F023AF41440042185E /* LeftAlignedCollectionViewFlowLayout.h */,
-				18F194F123AF41440042185E /* LeftAlignedCollectionViewFlowLayout.m */,
+				18ACEAE123AF4F8500DFEB61 /* LeftAlignCollectionViewFlowLayout.h */,
+				18ACEAE223AF4F8500DFEB61 /* LeftAlignCollectionViewFlowLayout.m */,
 				18E002B1238175C800CCB6CB /* LaunchScreen.storyboard */,
 				18F194F523AF444E0042185E /* Images.xcassets */,
 				18E002B4238175C800CCB6CB /* Info.plist */,
@@ -151,11 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F194F223AF41440042185E /* LeftAlignedCollectionViewFlowLayout.m in Sources */,
 				18E002AB238175C600CCB6CB /* ViewController.m in Sources */,
 				18F194EF23AF40C70042185E /* TagCollectionViewCell.m in Sources */,
 				18E002B6238175C800CCB6CB /* main.m in Sources */,
 				18E002A8238175C600CCB6CB /* AppDelegate.m in Sources */,
+				18ACEAE323AF4F8500DFEB61 /* LeftAlignCollectionViewFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

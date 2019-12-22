@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LeftAlignedCollectionViewFlowLayout.h"
+#import "LeftAlignCollectionViewFlowLayout.h"
 
-@interface ViewController : UIViewController <LeftAlignedCollectionViewFlowLayoutDelegate, UITextFieldDelegate>
+@interface ViewController : UIViewController <LeftAlignCollectionViewFlowLayoutDelegate, UITextFieldDelegate>
 
 
 @end

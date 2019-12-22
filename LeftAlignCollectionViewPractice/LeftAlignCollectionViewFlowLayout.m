@@ -1,15 +1,14 @@
 //
-//  LeftAlignedCollectionViewFlowLayout.m
+//  LeftAlignCollectionViewFlowLayout.m
 //  LeftAlignCollectionViewPractice
 //
 //  Created by pinyuan on 2019/12/22.
 //  Copyright © 2019 Apple. All rights reserved.
 //
 
-#import "LeftAlignedCollectionViewFlowLayout.h"
+#import "LeftAlignCollectionViewFlowLayout.h"
 
-@implementation LeftAlignedCollectionViewFlowLayout
-
+@implementation LeftAlignCollectionViewFlowLayout
 - (NSArray *)layoutAttributesForElementsInRect:(CGRect)rect {
     NSArray *attributes = [super layoutAttributesForElementsInRect:rect];
     
@@ -27,4 +26,5 @@
     
     return attributes;
 }
+
 @end
